@@ -1,0 +1,11 @@
+.b-1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 10px black;
+}
+
+.button:hover{
+    box-shadow: 5px 10px 10px black;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
