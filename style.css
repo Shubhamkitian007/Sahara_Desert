@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big-box{
+    background-image: url(./Image/shara_desert.jpg);
+    height: 725px;
+}
+
+.box-1{
+    display: flex;
+}
+
+.logo > img{
+    width: 100px;
+    height: 100px;
+    padding: 15px 0 0 10px ;
+}
+
+.home{
+    font-size: 30px;
+    position: absolute;
+    padding-left: 1000px;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    
+}
+
+.box-2{
+    width: 650px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container-1{
+    padding-top: 125px;
+}
+.heading > h1{
+    font-size: 100px;
+    color: white;
+}
+
+.container > p{
+    font-size: 100px;
+}
+
+.para{
+    font-size: 20px;
+    color: white;
+}
+
+.button > p{
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 7px ;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.container-2{
+    display: flex; 
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 40%;
+    height: 84%;
+    margin-top: 2%;
+    row-gap: 40px;
+    padding-left: 250px;
+}
+
+.b-1{
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    width: 200px;
+    height: 150px;
+    padding: 17px;
+    cursor: pointer;
+    margin: 15px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#b1{
+    background-image: url(./Image/pic-1.png);    
+}
+
+#b2{
+    background-image: url(./Image/pic-2.png);
+}
+
+#b3{
+    background-image: url(./Image/pic-3.png);
+}
+
+#b4{
+    background-image: url(./Image/pic-4.png);
+}
+
+.b-1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 10px black;
+}
+
+.button:hover{
+    box-shadow: 5px 10px 10px black;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
