@@ -34,7 +34,6 @@ a{
 .box-2{
     width: 650px;
     display: flex;
-    padding-top: 10px;
     padding-left: 100px;
 }
 .container-1{
@@ -74,9 +73,6 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 40%;
-    height: 84%;
-    margin-top: 2%;
     row-gap: 40px;
     padding-left: 250px;
 }
@@ -86,7 +82,7 @@ a{
     background-repeat: no-repeat;
     border-radius: 18px;
     width: 200px;
-    height: 150px;
+    height: 200px;
     padding: 17px;
     cursor: pointer;
     margin: 15px;
@@ -113,14 +109,3 @@ h3{
     background-image: url(./Image/pic-4.png);
 }
 
-.b-1:hover{
-    transform: scale(1.1);
-    box-shadow: 5px 10px 10px black;
-}
-
-.button:hover{
-    box-shadow: 5px 10px 10px black;
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
-}
